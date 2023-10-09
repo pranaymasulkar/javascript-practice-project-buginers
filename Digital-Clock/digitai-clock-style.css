@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Megrim&family=Mochiy+Pop+One&family=Poppins:wght@300;400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  font-family: "Poppins";
+  background-image: url("https://d3nn873nee648n.cloudfront.net/1200x1800-new/20487/PT1049064.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #999;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.43);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headding {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+}
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timebox {
+  height: 100px;
+  width: 100px;
+  background-color: #07093b;
+  border-radius: 100%;
+  margin: 10px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* From https://css.glass */
+  background: rgba(139, 0, 0, 0.43);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(139, 0, 0, 0.3);
+}
+.ampm-box {
+  height: 100px;
+  width: 100px;
+  background-color: #07093b;
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* From https://css.glass */
+  background: rgba(139, 0, 0, 0.43);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(139, 0, 0, 0.3);
+}
+.divider {
+  margin: 10px;
+  color: #00cb25;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
